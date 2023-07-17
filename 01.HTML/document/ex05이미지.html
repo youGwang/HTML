@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 이미지 태그
+    - 필수 속성 : src (source의 줄임말)-->
+
+    <!-- (1)절대 경로 : 고유한 경로 -->
+    <!-- https://cdn.eyesmag.com/content/uploads/posts/2020/08/11/the-patrick-star-show-spongebob-squarepants-spin-off-1-516d0d4f-fcf0-4106-ab95-a407167fee2c.jpg -->
+    <img src="https://cdn.eyesmag.com/content/uploads/posts/2020/08/11/the-patrick-star-show-spongebob-squarepants-spin-off-1-516d0d4f-fcf0-4106-ab95-a407167fee2c.jpg">
+
+    <!-- (2) 상대 경로 -->
+
+    <!-- (1) 현재를 기준으로 바로 접근 가능 : ./ -->
+    <!-- <img src="./img/pic.jpg"> -->
+
+    <!-- (2) 상위를 기준으로 접근 가능 : ../ -->
+    <!-- Q. 상대경로 이미지를 다시 가져와보자! -->
+    <img src="../img/pic.jpg" width="500px">
+
+
+    <!-- 
+        <img>
+        > 필수 속성 : src(source)
+        > 결로 작성하는 속성
+        (1) 절대 경로 : 외부의 페이지 주소
+        (2) 상대 경로
+            -현재를 기준으로 : ./(생략가능)
+            -상위를 기준으로 : ../
+            -여러번 상위로 나와야 할 때 : ../../../
+            -최상위를 기준으로 : /
+     -->
+</body>
+</html>
